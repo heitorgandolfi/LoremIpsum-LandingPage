@@ -8,7 +8,7 @@
 
 - Criação de uma landing page moderna para treinamento e aprimoramento de conceitos, junto à criação do design em si.
 
-- **Status:** Finalizado. :heavy_check_mark:
+- **Status:** Em desenvolvimento. 
 
 <br>
 
