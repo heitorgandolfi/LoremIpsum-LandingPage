@@ -1,0 +1,24 @@
+.containerTopics {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 2.5rem;
+}
+
+.containerTopics h5 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    border-bottom: 0.25rem solid var(--purple);
+}
+
+.containerTopics a {
+    font-size: 0.75rem;
+    color: var(--lightGray);
+    cursor: pointer;
+}
+
+.containerTopics a:hover {
+    color: var(--gray);
+}

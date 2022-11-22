@@ -1,0 +1,109 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.75rem;
+    color: var(--black);
+}
+
+h1,
+span {
+    font-weight: 500;
+}
+
+span {
+    color: var(--purple);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 2.25rem;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+    opacity: .9;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+button {
+    padding: 0.6875rem 1.5rem;
+    color: var(--ice);
+    background-color: var(--purple);
+}
+
+button:hover {
+    background-color: var(--lightPurple);
+    transition: .4s ease-in;
+}
+
+/* Menu Mobile */
+
+.mobileNav {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mobileNavItems {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 0.75rem;
+}
+
+.userAction {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.test button {
+    padding: 0.25rem 1rem;
+}
+
+.openMenuBtn {
+    background-color: transparent;
+    border: none;
+    color: var(--purple);
+    font-size: 1.5rem;
+    display: none;
+    margin-top: 0.5rem;
+}
+
+.closeMenuBtn {
+    background-color: transparent;
+    margin: 0 auto;
+    border: none;
+    color: var(--purple);
+    font-size: 1.5rem;
+
+}
+
+@media (width <=905px) {
+
+    .menu {
+        justify-content: center;
+    }
+
+
+    .navItems {
+        display: none;
+    }
+
+    .openMenuBtn {
+        display: initial;
+    }
+
+}

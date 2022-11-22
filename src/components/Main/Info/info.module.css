@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+    margin-top: 3.25rem;
+    width: 340px;
+}
+
+.container i {
+    font-size: 2.75rem;
+    color: var(--purple);
+    background-color: var(--white);
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 50%;
+    -webkit-box-shadow: 4px 17px 112px -11px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 17px 112px -11px rgba(0, 0, 0, 1);
+    box-shadow: 4px 17px 112px -11px rgba(0, 0, 0, 1);
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+    margin: 1rem 0 0.75rem 0;
+}
+
+.container h4 {
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: var(--ice);
+}

@@ -1,0 +1,19 @@
+:root {
+  --purple: rgb(70, 35, 153);
+  --lightPurple: rgb(125, 100, 183);
+  --black: #1c1c1c;
+  --gray: rgb(78, 78, 78);
+  --lightGray: #9c9c9c;
+  --darktGray: rgb(60, 60, 60);
+  --white: #ffffff;
+  --ice: #f5f9fc;
+  --green: hwb(153 2% 27%);
+  --lightGreen: rgb(222, 245, 235);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}

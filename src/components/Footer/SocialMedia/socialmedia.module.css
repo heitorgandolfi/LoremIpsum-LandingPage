@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0.75rem;
+}
+
+.container span {
+    color: var(--lightGray);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.listContent {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.listContent i {
+    font-size: 2.25rem;
+    color: var(--purple);
+    cursor: pointer;
+}
+
+.listContent i:hover {
+    opacity: .8;
+}
