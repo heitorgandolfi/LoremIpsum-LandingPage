@@ -27,3 +27,13 @@
     font-weight: 300;
     color: var(--white);
 }
+
+@media (width <=400px) {
+    .container h3{
+        font-size: 20px;
+    }
+
+    .container h4{
+        font-size: 14px;
+    }
+}

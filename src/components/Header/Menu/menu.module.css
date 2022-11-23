@@ -10,9 +10,6 @@
     padding: 0.75rem;
     color: var(--black);
     background-color: var(--white);
-    box-shadow: -1px 5px 8px 0px rgba(0, 0, 0, 0.010);
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
 }
 
 h1,

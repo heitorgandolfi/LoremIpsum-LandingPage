@@ -5,11 +5,12 @@
     justify-content: center;
     flex-wrap: wrap-reverse;
     align-items: center;
-    margin: 5rem 0 2.75rem 0;
+    margin: 120px 0 2.75rem 0;
 }
 
 .firstSection img {
     width: 500px;
+    margin-top: 44px;
 }
 
 .firstSection button {
@@ -36,6 +37,7 @@
     }
 }
 
+
 /* Second Section */
 
 .secondSection {
@@ -56,6 +58,12 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 2.5rem;
+}
+
+@media (width <=400px) {
+    .secondSection h1 {
+        font-size: 28px;
+    }
 }
 
 /* Third Section */

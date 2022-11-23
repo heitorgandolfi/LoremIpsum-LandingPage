@@ -1,11 +1,22 @@
-.minorInfoContainer{
+.minorInfoContainer {
     display: flex;
     align-items: center;
     gap: 1.5rem;
     margin-top: 3rem;
 }
 
-.minorInfoContainer div{
+.minorInfoContainer div {
     max-width: 600px;
     width: 100%;
+}
+
+
+@media (width <=400px) {
+    .minorInfoContainer h3 {
+        font-size: 16px;
+    }
+
+    .minorInfoContainer h4 {
+        font-size: 14px;
+    }
 }

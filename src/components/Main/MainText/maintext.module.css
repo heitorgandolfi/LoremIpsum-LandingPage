@@ -17,3 +17,14 @@
     margin-bottom: 2rem;
     color: var(--lightGray);
 }
+
+
+@media (width <=400px) {
+    .container h2 {
+        font-size: 1.5rem;
+    }
+
+    .container h3 {
+        font-size: 0.875rem;
+    }
+}
