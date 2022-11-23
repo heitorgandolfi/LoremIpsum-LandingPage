@@ -14,7 +14,9 @@
 }
 
 .firstSection button {
-    padding: 1rem 1.25rem;
+    padding: 16px 0;
+    width: 66%;
+    font-size: 14px;
 }
 
 @media (width <=635px) {
@@ -121,15 +123,18 @@
 /* Fourth Section */
 
 .fourthSection {
-    margin-top: 5rem;
-    padding: 0.1px;
+    margin: 4rem 0 0 0;
+    padding: .1px;
     background-color: var(--ice);
     text-align: center;
 }
 
 .fourthSection h2 {
-    margin-bottom: 0.75rem;
-    margin-top: 5rem;
+    margin: 5rem 0 .75rem 0;
+}
+
+.fourthSection h3 {
+    margin-bottom: 4rem;
 }
 
 .cardContainer {
@@ -137,6 +142,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
+    margin-bottom: 4em;
 }
 
 /* Fifth section */
