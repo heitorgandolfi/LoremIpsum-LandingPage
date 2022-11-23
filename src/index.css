@@ -1,14 +1,13 @@
 :root {
-  --purple: rgb(70, 35, 153);
-  --lightPurple: rgb(125, 100, 183);
+  --purple: #462399;
+  --lightPurple: #7d64b7;
   --black: #1c1c1c;
-  --gray: rgb(78, 78, 78);
+  --gray: #4e4e4e;
   --lightGray: #9c9c9c;
-  --darktGray: rgb(60, 60, 60);
+  --darktGray: #3c3c3c;
   --white: #ffffff;
   --ice: #f5f9fc;
-  --green: hwb(153 2% 27%);
-  --lightGreen: rgb(222, 245, 235);
+  --green: #05ba69;
 }
 
 * {
