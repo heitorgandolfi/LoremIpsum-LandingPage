@@ -1,6 +1,8 @@
 # Landing Page - 01
 
 <div align="center">
+
+<img src="https://user-images.githubusercontent.com/113437603/203556819-a02a91c4-0372-40b1-9bad-5868979dc259.png" width="760px">
  
  </div>
 
