@@ -51,7 +51,7 @@ export const Footer = () => {
         <Topics
           topicName="Contact Us"
           topics={[
-            "example@example.com",
+            "ex@email.com",
             "888-123-4567"
           ]}
         />

@@ -2,8 +2,10 @@
 
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    width: 138px;
     gap: 0.25rem;
-    padding: 2.5rem;
+    padding: 0.5rem;
 }
 
 .containerTopics h5 {

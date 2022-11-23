@@ -35,19 +35,19 @@ export const Main = () => {
           <Info
             icon={<GiEnrage />}
             title="Lorem ipsum"
-            content="Quisque blandit, elit in consequat porta, mi libero efficitur quam, ac aliquam orci turpis id nulla. Integer sit amet dictum lacus, a venenatis neque. Proin eu tincidunt lectus, nec viverra arcu."
+            content="Quisque blandit, elit in consequat porta, mi libero efficitur quam, ac aliquam orci turpis id nulla."
           />
 
           <Info
             icon={<GiSwordsPower />}
             title="Lorem ipsum"
-            content="Quisque blandit, elit in consequat porta, mi libero efficitur quam, ac aliquam orci turpis id nulla. Integer sit amet dictum lacus, a venenatis neque. Proin eu tincidunt lectus, nec viverra arcu."
+            content="Quisque blandit, elit in consequat porta, mi libero efficitur quam, ac aliquam orci turpis id nulla."
           />
 
           <Info
             icon={<GiDrakkarDragon />}
             title="Lorem ipsum"
-            content="Quisque blandit, elit in consequat porta, mi libero efficitur quam, ac aliquam orci turpis id nulla. Integer sit amet dictum lacus, a venenatis neque. Proin eu tincidunt lectus, nec viverra arcu."
+            content="Quisque blandit, elit in consequat porta, mi libero efficitur quam, ac aliquam orci turpis id nulla."
           />
         </article>
       </section>
@@ -80,11 +80,10 @@ export const Main = () => {
       </section>
 
       <section className={styles.fourthSection}>
-        <MainText
-          mainText="Lorem ipsum dolor sit amet"
-          secondaryText="Quisque blandit, elit in consequat porta, mi libero efficitur quam, ac aliquam orci turpis id nulla."
-        />
-
+          <MainText
+            mainText="Lorem ipsum dolor sit amet"
+            secondaryText="Quisque blandit, elit in consequat porta, mi libero efficitur quam, ac aliquam orci turpis id nulla."
+          />
         <div className={styles.cardContainer}>
           <Cards
             plan="Starter"
