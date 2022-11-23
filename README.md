@@ -8,7 +8,9 @@
 
 ### **Sobre o projeto:**
 
-- Criação de uma landing page moderna para treinamento e aprimoramento de conceitos, junto à criação do design em si.
+- Landing Page moderna criada a partir do uso de React JS, JavaScript, HTML e CSS, CSS Modules. Página responsiva, adequada para os mais variados tamanhos de display. 
+
+- Inspiração para o design: https://99designs.com.br/profiles/coincept/designs/1234414
 
 - **Status:** Finalizado. :heavy_check_mark: 
 
