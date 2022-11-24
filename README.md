@@ -1,4 +1,4 @@
-# Landing Page - 01
+# Landing Page
 
 <div align="center">
 
