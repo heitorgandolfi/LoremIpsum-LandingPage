@@ -19,7 +19,7 @@
     font-size: 14px;
 }
 
-@media (width <=635px) {
+@media screen and (max-width: 635px) {
     .firstSection {
         display: flex;
         justify-content: center;
@@ -33,7 +33,7 @@
     }
 }
 
-@media (width <=610px) {
+@media screen and (max-width: 610px) {
     .firstSection {
         margin-left: 0.75rem;
     }
@@ -62,7 +62,7 @@
     gap: 2.5rem;
 }
 
-@media (width <=400px) {
+@media screen and (max-width: 400px) {
     .secondSection h1 {
         font-size: 28px;
     }
@@ -108,13 +108,13 @@
     font-weight: 400;
 }
 
-@media (width <=610px) {
+@media screen and (max-width: 610px) {
     .thirdSection {
         margin-left: 12px;
     }
 }
 
-@media (width <=425px) {
+@media screen and (max-width: 425px) {
     .thirdSection img {
         width: 95%;
     }
@@ -181,13 +181,13 @@
     width: 300px;
 }
 
-@media (width <=390px) {
+@media screen and (max-width: 390px) {
     .fifthSection img {
         width: 95%;
     }
 }
 
-@media (width <=610px) {
+@media screen and (max-width: 610px) {
     .fifthSection {
         margin-left: 12px;
     }
@@ -212,7 +212,7 @@
     color: var(--white);
 }
 
-@media (width <=415px) {
+@media screen and (max-width: 415px) {
     .sixthSection {
         padding: 36px;
     }

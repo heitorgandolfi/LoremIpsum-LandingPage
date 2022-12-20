@@ -28,12 +28,12 @@
     color: var(--white);
 }
 
-@media (width <=400px) {
-    .container h3{
+@media screen and (max-width: 400px) {
+    .container h3 {
         font-size: 20px;
     }
 
-    .container h4{
+    .container h4 {
         font-size: 14px;
     }
 }

@@ -18,8 +18,7 @@
     color: var(--lightGray);
 }
 
-
-@media (width <=400px) {
+@media screen and (max-width: 400px) {
     .container h2 {
         font-size: 1.5rem;
     }

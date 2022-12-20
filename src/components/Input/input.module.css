@@ -37,7 +37,7 @@
     transition: .4 ease-in;
 }
 
-@media (width <=305px) {
+@media screen and (max-width: 305px) {
     .formContainer input {
         width: 100%;
     }

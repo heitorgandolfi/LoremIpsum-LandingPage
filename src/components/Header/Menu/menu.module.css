@@ -93,8 +93,7 @@ button:hover {
     font-size: 1.5rem;
 }
 
-@media (width <=905px) {
-
+@media screen and (max-width: 905px) {
     .menu {
         justify-content: center;
     }
@@ -106,5 +105,4 @@ button:hover {
     .openMenuBtn {
         display: initial;
     }
-
 }
