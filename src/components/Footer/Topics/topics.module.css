@@ -23,4 +23,5 @@
 
 .containerTopics a:hover {
     color: var(--gray);
+    text-decoration: underline;
 }
